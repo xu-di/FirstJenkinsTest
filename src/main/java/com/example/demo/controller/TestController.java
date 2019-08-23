@@ -10,4 +10,9 @@ public class TestController {
     public String test(){
         return "test success!";
     }
+
+    @RequestMapping("/devtest")
+    public String devtest(){
+        return "devtest success!";
+    }
 }
